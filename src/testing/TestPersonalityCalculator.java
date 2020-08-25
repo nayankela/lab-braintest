@@ -1,6 +1,4 @@
 package testing;
-/* Uncomment the below code to test your application
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -9,7 +7,6 @@ import service.PersonalityCalculator;
 
 public class TestPersonalityCalculator {
 	PersonalityCalculator pc = new PersonalityCalculator();
-
 	@Test
 	public void testFindYourBrainTypeMethod() {
 		String options = "1,2,3,2,1,4,5,2,3,4,5,4,3,2,3,4,5,3,2,4";
@@ -28,4 +25,4 @@ public class TestPersonalityCalculator {
 			e.printStackTrace();
 		}
 	}
-}*/
+}
